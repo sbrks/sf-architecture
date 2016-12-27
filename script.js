@@ -1,9 +1,9 @@
 
-var map = L.map('mapid').setView([37.77, -122.4494], 16);
+var map = L.map('mapid').setView([37.77, -122.4494], 13);
 
 L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v10/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Jya3MiLCJhIjoiY2l4NDdic2k2MDB3MDJ5bXo1amEyamtseiJ9.0F-KchzX1fhKBM6BG6srcg', {
     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
-    maxZoom: 13,
+    maxZoom: 18,
     id: 'your.mapbox.project.id',
     accessToken: 'pk.eyJ1Ijoic2Jya3MiLCJhIjoiY2l4NDdic2k2MDB3MDJ5bXo1amEyamtseiJ9.0F-KchzX1fhKBM6BG6srcg'
 }).addTo(map);
@@ -230,16 +230,22 @@ function onEachFeature(feature, layer) {
   // var coord = feature.geometry.coordinates;
   //   L.marker(coord, {icon: mapIcon}).addTo(map).bindPopup(feature.properties.Building);
     // does this feature have a property named Building?
-    if (feature.properties && feature.properties.Building) {
-         layer.bindPopup(feature.properties.Building + "<br>Address: " + feature.properties.Address +
-          "<br>Architect: " + feature.properties.Architect);
+    // if (feature.properties.Architect) {
+      
+    // }
+    // if (feature.properties && feature.properties.Building) {
+         layer.bindPopup(feature.properties.Building + "<br>" + feature.properties.Address + "<br>Year Built: " + feature.properties[Year Build] + "<br>Architect: unknown");
 
+    // }
+    if (feature.properties.Architect) {
+      layer.bindPopup(feature.properties.Building + "<br>" + feature.properties.Address + 
+      "<br>Architect: " + feature.properties.Architect) + "<br>Year Built: " + feature.properties[Year Build];
     }
 }
 
 
 var mapIcon = L.icon({
-  iconUrl: 'building-black.svg',
+  iconUrl: '../assets/building-black.svg',
   iconSize: [32,120]
 });
 
