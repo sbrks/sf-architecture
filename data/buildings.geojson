@@ -1,0 +1,205 @@
+var dataLayer = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3982653,
+          37.7961685
+        ]
+      },
+      "properties": {
+        "District": "Downtown",
+        "Neighborhood": "Jackson Square",
+        "Building": "Burr Building",
+        "Address": "520-550 Washington Street",
+        "City": "San Francisco",
+        "State": "California",
+        "Year Build": "1855",
+        "Architect": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4031534,
+          37.795701
+        ]
+      },
+      "properties": {
+        "District": "Downtown",
+        "Neighborhood": "Jackson Square",
+        "Building": "Columbus Savings Bank",
+        "Address": "700 Montgomery Street",
+        "City": "San Francisco",
+        "State": "California",
+        "Year Build": "1905",
+        "Architect": "Meyer and O'Brien"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4032497,
+          37.79571933
+        ]
+      },
+      "properties": {
+        "District": "Downtown",
+        "Neighborhood": "Jackson Square",
+        "Building": "Canessa Printing Co.",
+        "Address": "708-710 Montgomery Street",
+        "City": "San Francisco",
+        "State": "California",
+        "Year Build": "1913",
+        "Architect": "Luigi Mastropasqua"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.403255,
+          37.79574549
+        ]
+      },
+      "properties": {
+        "District": "Downtown",
+        "Neighborhood": "Jackson Square",
+        "Building": "712-714 Montgomery Street",
+        "Address": "712-714 Montgomery Street",
+        "City": "San Francisco",
+        "State": "California",
+        "Year Build": "Early 1850s",
+        "Architect": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4529409,
+          37.80605615
+        ]
+      },
+      "properties": {
+        "District": "Downtown",
+        "Neighborhood": "Jackson Square",
+        "Building": "Turkish Baths and Genella Building",
+        "Address": "722 and 728 Montgomery Street",
+        "City": "San Francisco",
+        "State": "California",
+        "Year Build": "",
+        "Architect": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4032985,
+          37.7953806
+        ]
+      },
+      "properties": {
+        "District": "Downtown",
+        "Neighborhood": "Jackson Square",
+        "Building": "Bank of Lucas, Turner and Co.",
+        "Address": "800-804 Montgomery Street",
+        "City": "San Francisco",
+        "State": "California",
+        "Year Build": "1854",
+        "Architect": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4031333,
+          37.79654633
+        ]
+      },
+      "properties": {
+        "District": "Downtown",
+        "Neighborhood": "Jackson Square",
+        "Building": "Gold Rush buildings",
+        "Address": "468 Jackson Street",
+        "City": "San Francisco",
+        "State": "California",
+        "Year Build": "Early 1850s",
+        "Architect": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4020282,
+          37.79652011
+        ]
+      },
+      "properties": {
+        "District": "Downtown",
+        "Neighborhood": "Jackson Square",
+        "Building": "Cast-iron-front buildings",
+        "Address": "407 Jackson Street",
+        "City": "San Francisco",
+        "State": "California",
+        "Year Build": "1850s-1870s",
+        "Architect": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4020792,
+          37.79651358
+        ]
+      },
+      "properties": {
+        "District": "Downtown",
+        "Neighborhood": "Jackson Square",
+        "Building": "Ghirardelli Chocolate Factory",
+        "Address": "415 Jackson Street",
+        "City": "San Francisco",
+        "State": "California",
+        "Year Build": "1857",
+        "Architect": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.402592,
+          37.7964475
+        ]
+      },
+      "properties": {
+        "District": "Downtown",
+        "Neighborhood": "Jackson Square",
+        "Building": "Hotaling Building",
+        "Address": "451 Jackson Street",
+        "City": "San Francisco",
+        "State": "California",
+        "Year Build": "1866",
+        "Architect": ""
+      }
+    }
+  ]
+}
